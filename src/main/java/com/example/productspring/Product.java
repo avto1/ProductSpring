@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 public class Product {
     @Id
 //    @GeneratedValue(strategy = GenerationType.IDENTITY )
-   private int id;
+    private int id;
     private String name;
     private String type;
     private String place;
@@ -43,18 +43,6 @@ public class Product {
 
     public String getPlace() {
         return place;
-    }
-
-    public void setPlace(String place) {
-        this.place = place;
-    }
-
-    public int getWarranty() {
-        return warranty;
-    }
-
-    public void setWarranty(int warranty) {
-        this.warranty = warranty;
     }
 
     @Override
